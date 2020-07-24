@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yellowcake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'National Concessions Group',
+    siteUrl: 'https://ncg-web.netlify.app'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,7 +12,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         /*id: 'GTM-add_your_tag_here',*/
-        id: 'GTM-P4RNF8D',
+        id: 'REPLACE',
         includeInDevelopment: false
       }
     },
@@ -47,8 +47,8 @@ module.exports = {
         name: 'yellowcake',
         short_name: 'yellowcake',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
+        background_color: '#000',
+        theme_color: '#000',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',

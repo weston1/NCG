@@ -1,24 +1,22 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+title: Contact NCG
+featuredImage: https://images.unsplash.com/photo-1591205879934-ce4cab5363d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60
 subtitle: This is the contact page subtitle.
-address: '404 James St, Burleigh Heads QLD 4220'
+address: '404 Broadway Denver, CO 80204'
 phone: 0987 123 456
-email: example@example.com
+email: help@ncg.com
 locations:
   - lat: '-27.9654732'
     lng: '153.2432449'
     mapLink: ''
 meta:
-  description: This is a meta description.
+  description: Contact NCG here.
   title: Contact Page
 ---
 
-# Example contact form
-
-This form is setup to use Netlify's form handling:
+# Contact
 
 - the form action is set to the current absolute url: `action: '/contact/'`
 - a name attribute is sent with the form's data `'form-name': 'Contact'`
