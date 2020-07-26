@@ -1,0 +1,45 @@
+.MainHeader {
+  color: var(--secondary);
+  padding: 10rem 0;
+}
+
+.MainHeader .BackgroundImage {
+  opacity: 0.1;
+  background-position: top center;
+  border-radius: var(--borderRadius);
+}
+
+.MainHeader-left {
+  padding: 20rem 0;
+  text-align: left;
+}
+
+.MainHeader--Logo {
+  width: 300px;
+}
+
+.MainHeader--Title {
+  font-size: 6vw;
+  line-height: 7vw;
+  text-align: left;
+}
+
+.MainHeader--Subtitle {
+  font-weight: 600;
+  font-size: 5rem !important;
+  margin: 2rem 0;
+}
+
+.MainHeader .container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@media (max-width: 600px) {
+  .MainHeader {
+    padding: 7rem 0;
+  }
+  .MainHeader-left {
+    padding: 12.5rem 0;
+    text-align: center;
+  }
+}

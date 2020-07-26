@@ -8,8 +8,8 @@ address: '404 Broadway Denver, CO 80204'
 phone: 0987 123 456
 email: help@ncg.com
 locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
+  - lat: '39.7392'
+    lng: '104.9903'
     mapLink: ''
 meta:
   description: Contact NCG here.

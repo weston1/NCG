@@ -59,6 +59,10 @@ export default ({ children, meta, title }) => {
               {title}
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
+              <link
+                href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap"
+                rel="stylesheet"
+              ></link>
               {/* Add font link tags here */}
             </Helmet>
 
@@ -72,8 +76,6 @@ export default ({ children, meta, title }) => {
               {...meta}
               {...data.settingsYaml}
             />
-
-            <GithubCorner url="https://github.com/thriveweb/yellowcake" />
 
             <Nav subNav={subNav} />
 

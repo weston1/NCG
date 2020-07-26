@@ -1,15 +1,18 @@
 ---
 template: HomePage
 slug: ''
-title: NCG
+title: Make the Data Vivid
+logo: '../images/mainHeader.svg'
 featuredImage: 'https://images.unsplash.com/photo-1565916393372-55db10bd0daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
-subtitle: 'Helping your business grow. Contact NCG today.'
+subtitle: 'NCG is a new generation of consumer products. We provide best practices with simplicity, convenience, profession, reliability, and infinite possibilities.'
 meta:
   description: NCG - National Concessions Group
   title: National Concesssions Group
----
+section1: >-
+  ## Simple and Convenient Reliable Infinite
 
-Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightening fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
+  NCG is a new generation of consumer products. We provide best practices with simplicity, convenience, profession, reliability, and infinite possibilities.
+---
 
 # Features
 

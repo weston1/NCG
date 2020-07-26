@@ -1,23 +1,45 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import PageHeader from '../components/PageHeader'
+import MainHeader from '../components/MainHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
+export const HomePageTemplate = ({
+  title,
+  subtitle,
+  logo,
+  featuredImage,
+  section1,
+  body
+}) => (
   <main className="Home">
-    <PageHeader
+    <MainHeader
       large
       title={title}
+      logo={logo}
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
     <section className="section">
-      <div className="container">
-        <Content source={body} />
+      <h4>Trusted by over 5000+ Companies</h4>
+      <div className="container row mx-auto">
+        <div className="FeatureCard bg-primary">
+          <h3>1</h3>
+          <p>NCG is a new generation of consumer products.</p>
+        </div>
+        <div className="FeatureCard">
+          <h3>2</h3>
+          <p>NCG is a new generation of consumer products.</p>
+        </div>
+        <div className="FeatureCard">
+          <h3>3</h3>
+          <p>NCG is a new generation of consumer products.</p>
+        </div>
+        <div className="section container text-center">
+          <Content source={section1} />
+        </div>
       </div>
     </section>
   </main>
@@ -45,6 +67,8 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        section1
+        logo
       }
     }
   }
