@@ -10,7 +10,7 @@
 }
 
 .MainHeader-left {
-  padding: 20rem 0;
+  padding: 15rem 0;
   text-align: left;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .MainHeader--Title {
-  font-size: 6vw;
-  line-height: 7vw;
+  font-size: 4em;
+  margin: 0.67em 0;
   text-align: left;
 }
 

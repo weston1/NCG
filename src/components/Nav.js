@@ -46,7 +46,7 @@ export class Navigation extends Component {
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
           <Link to="/" onClick={this.handleLinkClick}>
-            <Logo />
+            <h4>NCG</h4>
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>

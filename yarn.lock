@@ -2151,6 +2151,11 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
+animejs@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/animejs/-/animejs-3.2.0.tgz#2daea7365983249022cc454fa726acdb4a84345d"
+  integrity sha512-zhtGl5cS0G2f5DfciMO8uwWpnx06nfFnHlXYYXHBazHep1Lyd6kEtBQP+9hpYKE0dBZjIigHp9VpMO95ZfXQJQ==
+
 ansi-align@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-3.0.0.tgz#b536b371cf687caaef236c18d3e21fe3797467cb"
@@ -6633,6 +6638,14 @@ gatsby-plugin-sass@^2.1.20:
     "@babel/runtime" "^7.10.3"
     sass-loader "^7.3.1"
 
+gatsby-plugin-scroll-reveal@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-scroll-reveal/-/gatsby-plugin-scroll-reveal-0.0.7.tgz#5f0d1bcf65bf3c7b3d9d6b69dc4a8896129747ee"
+  integrity sha512-G9slNyz7WNVMwBeGXnQ/FhJc61Q9THkvUIAlft4Uws4QJKn0OdvsDqUAUQkTGKU8hkHhaMAKiugL/8gRYuAZZA==
+  dependencies:
+    intersection-observer "^0.7.0"
+    sal.js "^0.6.2"
+
 gatsby-plugin-sharp@^2.2.36:
   version "2.6.22"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.6.22.tgz#4f35f03c87126bd35f7c5c92f7d7f7334e136542"
@@ -6884,7 +6897,7 @@ gatsby-transformer-yaml@^2.2.15:
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-gatsby@^2.17.7:
+gatsby@^2.20.6:
   version "2.24.11"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.24.11.tgz#5c74f2ea2fbd4ebc75900953752e850016437479"
   integrity sha512-rmkFGJaFVPrVoyUXvYoex9+a7w501y6vyaesVpsJZdBBgtMnWFEIGvJ9uDLPLVPoOXFtTNzN9MmDNGI+0r85lw==
@@ -8461,6 +8474,11 @@ internal-slot@^1.0.2:
     es-abstract "^1.17.0-next.1"
     has "^1.0.3"
     side-channel "^1.0.2"
+
+intersection-observer@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
+  integrity sha512-Id0Fij0HsB/vKWGeBe9PxeY45ttRiBmhFyyt/geBdDHBYNctMRTE3dC1U3ujzz3lap+hVXlEcVaB56kZP/eEUg==
 
 into-stream@^3.1.0:
   version "3.1.0"
@@ -14034,6 +14052,11 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sal.js@^0.6.2:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/sal.js/-/sal.js-0.6.6.tgz#96bd32e9904ef0706f32d08254c28cad6ec890fb"
+  integrity sha512-XuhEEHRnzWMKGTC3ndZ0pCXPA5xU2rrPhFbb82EIq7M3ctjkJIg/AxnnQwPvn7IZ+I2Ku6kaqNOuA64anDwEjg==
 
 sanitize-filename@^1.6.1:
   version "1.6.3"

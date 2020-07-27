@@ -3,15 +3,18 @@ template: HomePage
 slug: ''
 title: Make the Data Vivid
 logo: '../images/mainHeader.svg'
-featuredImage: 'https://images.unsplash.com/photo-1565916393372-55db10bd0daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
+featuredImage: ''
 subtitle: 'NCG is a new generation of consumer products. We provide best practices with simplicity, convenience, profession, reliability, and infinite possibilities.'
-meta:
-  description: NCG - National Concessions Group
-  title: National Concesssions Group
+video: 'https://assets.mixkit.co/videos/preview/mixkit-man-working-on-his-laptop-308-large.mp4'
+videoPoster: 'https://images.unsplash.com/photo-1565916393372-55db10bd0daf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80'
+videoTitle: consistency reliability professionalism
 section1: >-
   ## Simple and Convenient Reliable Infinite
 
   NCG is a new generation of consumer products. We provide best practices with simplicity, convenience, profession, reliability, and infinite possibilities.
+meta:
+  description: NCG - National Concessions Group
+  title: National Concesssions Group
 ---
 
 # Features

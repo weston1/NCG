@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Nav from './Nav'
 import Footer from './Footer'
-import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
@@ -62,7 +61,8 @@ export default ({ children, meta, title }) => {
               <link
                 href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap"
                 rel="stylesheet"
-              ></link>
+              />
+
               {/* Add font link tags here */}
             </Helmet>
 
